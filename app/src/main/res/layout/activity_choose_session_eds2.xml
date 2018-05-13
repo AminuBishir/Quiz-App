@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/choose_session_bg"
+    android:orientation="vertical"
+    tools:context="com.example.aminubishier.umyuquizapp.Choose_session_eds2">
+
+    <Button
+        android:id="@+id/session_14_15_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="150dp"
+        android:onClick="eds2_session_14_15"
+        android:background="@drawable/session_14_15" />
+
+    <Button
+        android:id="@+id/session_15_16_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:onClick="eds2_session_15_16"
+        android:background="@drawable/session_15_16" />
+
+    <Button
+        android:id="@+id/session_16_17_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:onClick="eds2_session_16_17"
+        android:background="@drawable/session_16_17" />
+</LinearLayout>
